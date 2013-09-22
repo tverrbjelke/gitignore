@@ -1,7 +1,10 @@
 *.py[cod]
 
 # C extensions
+##dynamic libs
 *.so
+##static libs - comment this, if you need static libs inside your repo
+.a
 
 # Packages
 *.egg
@@ -18,6 +21,10 @@ develop-eggs
 lib
 lib64
 __pycache__
+
+#editor's and other tool's temp-extensions
+*~
+\#*\#
 
 # Installer logs
 pip-log.txt
